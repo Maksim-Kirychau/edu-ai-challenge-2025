@@ -1,0 +1,15 @@
+As a DB architect and developer let's selecting a database for a new application
+
+Database requirements:
+1. Social platform with millions of users
+2. Need to store profiles, posts, and connections between users
+3. High data read speed required
+4. Expected 80% read operations, 20% write operations
+5. Scalability is important as the user base grows
+
+Prepare two possible solutions with their pros and cons and make a choice on your own
+
+Do it in the next way:
+1. Think step by step
+2. Explain your reasoning before you answer.
+3. Show me the steps you are taking to solve this problem.
