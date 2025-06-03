@@ -1,0 +1,9 @@
+During QA session I found a bug, it's a short bug description:
+“Logout button doesn’t work on Safari. It just doesn’t respond.”
+Convert this short bug description into a clear, well-structured bug ticket. The output should follow next format:
+Title
+Description
+Steps to Reproduce
+Expected vs Actual Behaviour
+Environment (if known)
+Severity or Impact
