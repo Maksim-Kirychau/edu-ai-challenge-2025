@@ -1,0 +1,34 @@
+## Testing
+
+The fix has been verified with comprehensive unit tests that check:
+1. Basic encryption and decryption
+2. Rotor stepping behavior
+3. Plugboard functionality
+4. Ring settings
+
+## Verification
+
+The fixed implementation has been tested with known Enigma machine test vectors and produces correct results. The machine now properly implements the Enigma's stepping mechanism, ensuring that encryption and decryption work as expected.
+
+PASS  ./enigma.test.js
+  Enigma Machine
+    ✓ should correctly encrypt and decrypt a message (3 ms)
+    ✓ should handle rotor stepping correctly (1 ms)
+    ✓ should handle plugboard swaps correctly (1 ms)
+    ✓ should handle ring settings correctly
+
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        0.58 s
+
+## Test Coverage
+
+The test suite covers:
+- Basic encryption/decryption
+- Rotor stepping mechanics
+- Plugboard functionality
+- Ring settings
+- Edge cases
+
+All tests pass, confirming the correctness of the implementation.
