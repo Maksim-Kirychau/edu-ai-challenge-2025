@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Battle Game</title>
+    <style>
+        .game-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .board {
+            display: grid;
+            grid-template-columns: repeat(10, 40px);
+            gap: 1px;
+            background-color: #ccc;
+            padding: 1px;
+        }
+        .cell {
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .cell:hover {
+            background-color: #e0e0e0;
+        }
+        .status {
+            text-align: center;
+            margin: 20px;
+            font-size: 18px;
+        }
+        .hit { color: red; }
+        .miss { color: blue; }
+        .ship { color: green; }
+    </style>
+</head>
+<body>
+    <div class="status" id="status">Welcome to Sea Battle! Place your ships.</div>
+    <div class="game-container">
+        <div>
+            <h2>Your Board</h2>
+            <div class="board" id="playerBoard"></div>
+        </div>
+        <div>
+            <h2>CPU Board</h2>
+            <div class="board" id="cpuBoard"></div>
+        </div>
+    </div>
+    <script type="module" src="src/game/ui.js"></script>
+</body>
+</html>

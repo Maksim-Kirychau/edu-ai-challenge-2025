@@ -1,0 +1,15 @@
+{
+    "name": "sea-battle",
+    "version": "1.0.0",
+    "description": "Modern implementation of Sea Battle game",
+    "type": "module",
+    "scripts": {
+      "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+      "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+      "start": "npx http-server . -p 3000"
+    },
+    "devDependencies": {
+      "jest": "^29.7.0",
+      "http-server": "^14.1.1"
+    }
+  }
